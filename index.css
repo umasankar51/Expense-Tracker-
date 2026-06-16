@@ -81,18 +81,7 @@
     margin: 5px;
 }
 
-/*#WL{
-    color: white;
-    background-color: transparent;
-}*/
-#sign,
-#log {
-    color: white;
-    font-size: 2.5em;
-    text-decoration: none;
-    margin-left: 2.5em;
-    background-color: #0A1931;
-}
+
 
 .main-expense-tracker {
     width: 60%;
@@ -102,17 +91,17 @@
     /* grid-template-rows: 1fr 1fr; */
     align-items: center;
     justify-content: center;
-    background-color:red;
+    background-color:transparent;
+    
 }
 .main-expense-tracker .heading{
     width: 100%;
     height: 45%;
-    background-color: yellow;
+    background-color:transparent;
     margin-top: 2em;
-    /* margin-bottom: 5%; */
-    /* display: flex; */
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
+    margin-left: 13em;
 }
 .main-expense-tracker  h1{
     font-size: 7em;
@@ -124,13 +113,27 @@
 .main-expense-tracker .brief{
     width: 100%;
     height: 70%;
-    background-color: green;
+    background-color: transparent;
     
     /* display: flex; */
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .main-expense-tracker .brief p{
     background-color: transparent;
+    font-size: 2em;
+}
+.btn{
     font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20em;
+    background-color: transparent;
+}
+.btn:hover{
+    color: #0A1931;
+    background-color: white;
+    border-radius: 5px;
 }
