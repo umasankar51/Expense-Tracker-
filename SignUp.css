@@ -97,6 +97,9 @@
     font-weight: bold;
     background-color: transparent;
 }
+form{
+    background-color: transparent;
+}
 .l-name{
     margin-left: 2em;
     font-size: 1.5em;
@@ -113,12 +116,12 @@
     margin-bottom: 2em;
     border-radius: 5px;
     border: 1.5px solid black;
-    background-color: grey;
-   
+    background-color: lightgray;
+    font-size: 0.8em;
 }
 button{
     width:5em;
-    height: 2.5em;
+    height: 2em;
     border: 2.5px solid rgb(248, 221, 68);
     border-radius: 35px;
     margin-left:8em;
